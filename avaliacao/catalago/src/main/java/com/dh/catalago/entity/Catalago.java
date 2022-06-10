@@ -12,7 +12,7 @@ public class Catalago {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String nome;
+    private String name;
     private String genero;
     private String urlStream;
 }
